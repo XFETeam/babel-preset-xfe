@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Highly optimize and long-term maintenance babel preset",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "release": "npm publish --access=public"
   },
   "keywords": [],
   "author": "She Ailun",
