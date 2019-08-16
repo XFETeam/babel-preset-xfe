@@ -1,5 +1,5 @@
 {
-  "name": "babel-preset-xfe",
+  "name": "@xfe-team/babel-preset-xfe",
   "version": "0.0.1",
   "description": "Highly optimize and long-term maintenance babel preset",
   "scripts": {
