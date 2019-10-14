@@ -22,7 +22,7 @@ npm install @xfe-team/babel-preset-xfe --registry=https://registry.npmjs.org/
 
 ## ChangeLog
 
-## 0.0.1 (2019-10-14)
+## 0.0.4 (2019-10-14)
 
 * feat: init commit
 
