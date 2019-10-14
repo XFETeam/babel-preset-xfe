@@ -7,6 +7,7 @@
     "build": "tsc && npm run pack",
     "release": "npm run build && release-it 0.0.4"
   },
+  "homepage": "https://github.com/XFETeam/babel-preset-xfe.git",
   "keywords": [
     "babel",
     "babel-preset"
