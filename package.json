@@ -3,7 +3,7 @@
   "version": "0.0.4",
   "description": "babel preset 定制集成, 目前主要针对日常 react 项目, 支持 IE9+, 其中源码 src/index.ts 进行全面注释说明",
   "scripts": {
-    "pack": "cd archive && npm pack ../",
+    "pack": "cd archive && npm pack ../ && cd ../",
     "build": "tsc && npm run pack",
     "release": "npm run build && release-it 0.0.4"
   },
