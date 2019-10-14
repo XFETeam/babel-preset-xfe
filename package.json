@@ -1,12 +1,15 @@
 {
   "name": "@xfe-team/babel-preset-xfe",
   "version": "0.0.1",
-  "description": "Highly optimize and long-term maintenance babel preset",
+  "description": "babel preset 定制集成, 目前主要针对日常 react 项目, 支持 IE9+, 其中源码 src/index.ts 进行全面注释说明",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && npm pack --dry-run",
     "release": "npm publish --access=public"
   },
-  "keywords": [],
+  "keywords": [
+    "babel",
+    "babel-preset"
+  ],
   "author": "She Ailun",
   "license": "MIT",
   "files": [
@@ -35,9 +38,7 @@
     "@babel/plugin-transform-runtime": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
-    "@babel/plugin-transform-object-assign": "7.2.0",
     "babel-plugin-macros": "^2.4.2",
-    "babel-plugin-react-require": "3.0.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.15"
   },
   "devDependencies": {
