@@ -22,6 +22,10 @@ npm install @xfe-team/babel-preset-xfe --registry=https://registry.npmjs.org/
 
 ## ChangeLog
 
+## 0.0.5 (2021-06-30)
+
+* fix: 修复由于 `@babel/preset-env@^7.0.0`, 自动升级导致的一些异常问题, 目前固定版本为 `@babel/preset-env@7.12.11`
+
 ## 0.0.4 (2019-10-14)
 
 * feat: init commit

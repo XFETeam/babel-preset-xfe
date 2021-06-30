@@ -1,11 +1,10 @@
 {
   "name": "@xfe-team/babel-preset-xfe",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "babel preset 定制集成, 目前主要针对日常 react 项目, 支持 IE9+, 其中源码 src/index.ts 进行全面注释说明",
   "scripts": {
-    "pack": "cd archive && npm pack ../ && cd ../",
-    "build": "tsc && npm run pack",
-    "release": "npm run build && release-it 0.0.4"
+    "build": "tsc",
+    "release": "npm run build && release-it 0.0.5"
   },
   "homepage": "https://github.com/XFETeam/babel-preset-xfe.git",
   "keywords": [
@@ -39,7 +38,7 @@
     "@babel/plugin-transform-react-constant-elements": "^7.0.0",
     "@babel/plugin-transform-react-inline-elements": "^7.0.0",
     "@babel/plugin-transform-runtime": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-env": "7.12.11",
     "@babel/preset-react": "^7.0.0",
     "babel-plugin-macros": "^2.4.2",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.15"
