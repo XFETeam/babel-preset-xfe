@@ -22,6 +22,10 @@ npm install @xfe-team/babel-preset-xfe --registry=https://registry.npmjs.org/
 
 ## ChangeLog
 
+## 0.0.7 (2021-08-24)
+
+* fix: 修复版本问题
+
 ## 0.0.6 (2021-08-24)
 
 * fix: 固定插件版本防止部分版本升级导致的异常问题
@@ -36,4 +40,3 @@ npm install @xfe-team/babel-preset-xfe --registry=https://registry.npmjs.org/
 
 ## 作者
 She Ailun
-
